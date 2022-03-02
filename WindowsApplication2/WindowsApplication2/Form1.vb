@@ -1,12 +1,12 @@
 ﻿Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Me.CenterToParent()
-        'SerialPort1.PortName = "COM7"
-        'SerialPort1.BaudRate = 9600
-        'SerialPort1.Open()
-        'Timer1.Start()
-        'SerialPort1.Write(TrackBar1.Value & Chr(10))
+        Me.CenterToParent()
+        SerialPort1.PortName = "COM7"
+        SerialPort1.BaudRate = 9600
+        SerialPort1.Open()
+        Timer1.Start()
+        SerialPort1.Write(TrackBar1.Value & Chr(10))
     End Sub
 
     Private Sub BtnON_Click(sender As Object, e As EventArgs) Handles BtnON.Click
